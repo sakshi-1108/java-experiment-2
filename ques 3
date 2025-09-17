@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class VowelConsonentIfElse{   
+public static void main(String[] args){
+ // Name and roll number
+        System.out.println("Name: Sakshi");
+        System.out.println("Roll No.: 24csu288");
+        System.out.println("----------------------");
+
+
+Scanner sc= new Scanner(System.in);
+  // Print name and roll number
+        System.out.println("Name: Sakshi");
+        System.out.println("Roll No.: 24csu288");
+        System.out.println("----------------------");
+System.out.print("Enter n alphabet:");
+char ch= sc.next().toLowerCase().charAt(0);
+if ((ch>='a'&& ch <='z')) {
+if (ch=='a'|| ch=='e'|| ch=='i'||ch=='o' ||ch=='u'){ 
+System.out.println(ch + "is vowel");
+} else {
+System.out.println(ch + "is a consonant");
+}
+} else {
+System.out.println("invalid input. please enter an alphabet");
+}
+}
+}
+
+
+
+
