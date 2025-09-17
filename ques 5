@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class FibonacciSeries {
+    public static void main(String[] args) {
+import java.util.Scanner;
+
+class FibonacciSeries {
+    public static void main(String[] args) {
+        import java.util.Scanner;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter terms: ");
+        int n = sc.nextInt();
+
+        int a = 0, b = 1;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
+            b = a + b;
+            a = b - a;
+        }
+    }
+}
+        import java.util.Scanner;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter terms: ");
+        int n = sc.nextInt();
+
+        int a = 0, b = 1;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
+            b = a + b;
+            a = b - a;
+        }
+    }
+}
