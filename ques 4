@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class PrimeCheck {
+    public static void main(String[] args) {
+        System.out.println("Name: Sakshi");
+        System.out.println("Roll No.: 24csu288");
+        System.out.println("----------------------");
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        int count = 0;
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0)
+                count++;
+        }
+
+        if (count == 2)
+            System.out.println(n + " is Prime");
+        else
+            System.out.println(n + " is Not Prime");
+
+        
+    }
+}
