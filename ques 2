@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class QuadraticRoots {
+    public static void main(String[] args) {
+        // Name and roll number
+        System.out.println("Name: Sakshi");
+        System.out.println("Roll No.: 24csu288");
+        System.out.println("----------------------");
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a: ");
+        double a = sc.nextDouble();
+        System.out.print("Enter b: ");
+        double b = sc.nextDouble();
+        System.out.print("Enter c: ");
+        double c = sc.nextDouble();
+
+        double d = b * b - 4 * a * c; // discriminant
+
+        if (d >= 0) {
+            double r1 = (-b + Math.sqrt(d)) / (2 * a);
+            double r2 = (-b - Math.sqrt(d)) / (2 * a);
+            System.out.println("Root 1 = " + r1);
+            System.out.println("Root 2 = " + r2);
+        } else {
+            System.out.println("Roots are imaginary.");
+        }
+
+            }
+}
